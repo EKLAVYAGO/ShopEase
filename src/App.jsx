@@ -16,7 +16,7 @@ export default function App() {
   return (
     // CartProvider wraps the whole app so any component can access the cart
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/ShopEase">
         <Navbar />
         <main>
           <Routes>
